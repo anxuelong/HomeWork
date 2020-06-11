@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="课程相关"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/button1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_75">
+
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_about"
+            android:button="@null"
+            android:checked="true"
+            android:text="关注的老师" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_collect"
+            android:button="@null"
+            android:checked="true"
+            android:text="我的收藏" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_icon_download"
+            android:id="@+id/main_yue_class"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:text="我的下载"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <TextView
+        android:text="订单相关"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radio_group2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_75">
+
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/butto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_order"
+            android:button="@null"
+            android:checked="true"
+            android:text="课程订单" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/butto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_user_vip"
+            android:button="@null"
+            android:checked="true"
+            android:text="会员订单" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_icon_reserve_order"
+            android:id="@+id/butto3"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:text="约课订单"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <TextView
+        android:text="我的账户"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radio_group3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_75">
+
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/butt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_coupon"
+            android:button="@null"
+            android:checked="true"
+            android:text="优惠券" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/butt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_select"
+            android:button="@null"
+            android:checked="true"
+            android:text="学习卡" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_icon_card"
+            android:id="@+id/butt3"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:text="会员"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <TextView
+        android:text="自助服务"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radio_group4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_75">
+
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/but1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_notice"
+            android:button="@null"
+            android:checked="true"
+            android:text="我的消息" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/but2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_icon_feed_back"
+            android:button="@null"
+            android:checked="true"
+            android:text="意见反馈" />
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_icon_service"
+            android:id="@+id/but3"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:text="在线客服"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/main_icon_settings"
+            android:id="@+id/but4"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:text="设置"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+</LinearLayout>
